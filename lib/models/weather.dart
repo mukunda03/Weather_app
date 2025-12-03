@@ -42,7 +42,7 @@ class Weather {
     base: json['base'] as String,
     main: Main.fromJson(json['main'] as Map<String, dynamic>),
     visibility: json['visibility'] ?? 0,
-    wind: Wind.fromJson(json['wind']),
+    wind: Wind.fromJson(json['wind'] as Map<String, dynamic>),
     rain: json['rain'] != null
         ? Rain.fromJson(json['rain'] as Map<String, dynamic>)
         : null,
@@ -71,20 +71,20 @@ class Coord {
 class WeatherData {
   final int id;
   final String main;
-  final String decription;
+  final String description;
   final String icon;
 
   const WeatherData({
     required this.id,
     required this.main,
-    required this.decription,
+    required this.description,
     required this.icon,
   });
 
   factory WeatherData.fromJson(Map<String, dynamic> json) => WeatherData(
     id: json['id'] as int,
     main: json['main'] as String,
-    decription: json['description'] as String,
+    description: json['description'] as String,
     icon: json['icon'] as String,
   );
 }
@@ -99,7 +99,7 @@ class Main {
   final int? humidity;
   final int? seaLevel;
   final int? grndLevel;
-  final int? visibilty;
+  final int? visibility;
 
   const Main({
     required this.temp,
@@ -110,19 +110,19 @@ class Main {
     this.humidity,
     this.seaLevel,
     this.grndLevel,
-    this.visibilty,
+    this.visibility,
   });
 
   factory Main.fromJson(Map<String, dynamic> json) => Main(
     temp: json['temp'] as double,
-    feelsLike: json['feelsLike'] as double,
+    feelsLike: json['feels_like'] as double,
     tempMin: json['temp_min'] as double,
     tempMax: json['temp_max'] as double,
     pressure: json['pressure'],
     humidity: json['humidity'],
     seaLevel: json['sea_level'],
     grndLevel: json['grnd_level'],
-    visibilty: json['visibility'],
+    visibility: json['visibility'],
   );
 }
 
@@ -147,8 +147,9 @@ class Rain {
 
   const Rain({this.oneHour});
 
-  factory Rain.fromJson(Map<String, dynamic> json) =>
-      Rain(oneHour: json['oneHour'] ?? 0.0);
+  factory Rain.fromJson(Map<String, dynamic> json) {
+    return Rain(oneHour: json['oneHour'] ?? 0.0);
+  }
 }
 
 @immutable
