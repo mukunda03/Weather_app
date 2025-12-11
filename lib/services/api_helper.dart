@@ -58,7 +58,7 @@ class ApiHelper {
       '$baseUrl/weather?lat=$lat&lon=$lon&units=metric&appid=${Constants.apiKey}';
 
   static String _constructForecastUrl() =>
-      '$baseUrl/forcast?lat=$lat&lon=$lon&units=metric&appid=${Constants.apiKey}';
+      '$baseUrl/forecast?lat=$lat&lon=$lon&units=metric&appid=${Constants.apiKey}';
 
   static String _constructWeatherByCityUrl(String cityName) =>
       '$baseUrl/weather?q=$cityName&units=metric&appid=${Constants.apiKey}';
