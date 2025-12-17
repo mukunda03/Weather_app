@@ -77,7 +77,7 @@ class HourlyWeatherTile extends StatelessWidget {
                 children: [
                   Text(hour, style: TextStyle(color: AppColors.white)),
                   const SizedBox(height: 5),
-                  Text('$temp', style: TextStyles.h3),
+                  Text('$temp°', style: TextStyles.h3),
                 ],
               ),
             ],

@@ -114,15 +114,16 @@ class Main {
   });
 
   factory Main.fromJson(Map<String, dynamic> json) => Main(
-    temp: json['temp'] as double,
-    feelsLike: json['feels_like'] as double,
-    tempMin: json['temp_min'] as double,
-    tempMax: json['temp_max'] as double,
-    pressure: json['pressure'],
-    humidity: json['humidity'],
-    seaLevel: json['sea_level'],
-    grndLevel: json['grnd_level'],
-    visibility: json['visibility'],
+    temp: (json['temp'] as num).toDouble(),
+    feelsLike: (json['feels_like'] as num).toDouble(),
+    tempMin: (json['temp_min'] as num).toDouble(),
+    tempMax: (json['temp_max'] as num).toDouble(),
+
+    pressure: json['pressure'] as int?,
+    humidity: json['humidity'] as int?,
+    seaLevel: json['sea_level'] as int?,
+    grndLevel: json['grnd_level'] as int?,
+    visibility: json['visibility'] as int?,
   );
 }
 
