@@ -46,7 +46,19 @@ class WeatherScreen extends ConsumerWidget {
               children: [
                 Text("Today", style: TextStyles.h2),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    showBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        final screenHeight = MediaQuery.of(context).size.height;
+
+                        return Container(
+                          height: screenHeight / 2,
+                          child: HourlyForecastBottomSheet(),
+                        );
+                      },
+                    );
+                  },
                   child: const Text('View Full Forecast'),
                 ),
               ],
@@ -62,7 +74,19 @@ class WeatherScreen extends ConsumerWidget {
         return Center(child: Text(error.toString()));
       },
       loading: () {
-        return const Center(child: CircularProgressIndicator());
+        return GradientContainer(
+          children: [
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(height: 10),
+                Text("Loading...", style: TextStyles.h1),
+              ],
+            ),
+          ],
+        );
       },
     );
   }

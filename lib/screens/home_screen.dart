@@ -30,18 +30,17 @@ class _HomeScreenState extends State<HomeScreen> {
       selectedIcon: Icon(Icons.wb_sunny, color: Colors.white),
       label: '',
     ),
-    NavigationDestination(
-      icon: Icon(Icons.settings_outlined, color: Colors.white),
-      selectedIcon: Icon(Icons.settings, color: Colors.white),
-      label: '',
-    ),
+    // NavigationDestination(
+    //   icon: Icon(Icons.settings_outlined, color: Colors.white),
+    //   selectedIcon: Icon(Icons.settings, color: Colors.white),
+    //   label: '',
+    // ),
   ];
 
   final _screens = [
     const WeatherScreen(),
     const SearchScreen(),
     const ForecastScreen(),
-    const Center(child: Text("Settings Screen")),
   ];
 
   @override
