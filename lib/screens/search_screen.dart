@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/constants/app_colors.dart';
+import 'package:weather_app/constants/text_styles.dart';
 import 'package:weather_app/views/famous_cities_view.dart';
 import 'package:weather_app/views/gradient_container.dart';
 import 'package:weather_app/widgets/round_text_field.dart';
@@ -32,6 +33,19 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       body: GradientContainer(
         children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text("Pick Location", style: TextStyles.h1),
+              SizedBox(height: 30),
+              Text(
+                "Find the area or city that you want to know the detailed weather info at this time",
+                style: TextStyles.subtitleText,
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
+          const SizedBox(height: 40),
           Row(
             children: [
               Expanded(
