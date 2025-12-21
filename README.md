@@ -1,16 +1,30 @@
-# weather_app
+# Weather App 🌤️
 
-A new Flutter project.
+A beautiful Flutter Weather App that shows current weather, hourly forecast, and lets users search for famous cities.  
+Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+✔ Search for cities by name  
+✔ View current weather information  
+✔ View hourly weather forecast in a bottom sheet  
+✔ List of famous cities for quick access  
+✔ Clean UI with gradients and weather icons  
+✔ Navigation to detailed weather screens
+ 
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+## 🧠 Tech Stack
+
+- **Flutter** — UI toolkit
+- **Dart**
+- **Riverpod** (optional) / `StatefulWidget` for state management
+- **OpenWeather API** (or API of your choice)
+- Custom widgets & responsive design
