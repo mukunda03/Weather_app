@@ -4,12 +4,21 @@ import 'package:weather_app/screens/weather_detail_screen.dart';
 import 'package:weather_app/widgets/famous_city_tile.dart';
 
 class FamousCitiesView extends StatelessWidget {
-  const FamousCitiesView({super.key});
+  final String searchText; //  optional search text
+
+  const FamousCitiesView({super.key, this.searchText = ''});
 
   @override
   Widget build(BuildContext context) {
+    final cities = searchText.isEmpty
+        ? famousCities
+        : famousCities.where((city) {
+            return city.name.toLowerCase().startsWith(searchText.toLowerCase());
+            // use contains() if needed
+          }).toList();
+
     return GridView.builder(
-      itemCount: famousCities.length,
+      itemCount: cities.length,
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -18,7 +27,8 @@ class FamousCitiesView extends StatelessWidget {
         mainAxisSpacing: 20,
       ),
       itemBuilder: (context, index) {
-        final city = famousCities[index];
+        final city = cities[index];
+
         return InkWell(
           onTap: () {
             Navigator.of(context).push(

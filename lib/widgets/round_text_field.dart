@@ -3,7 +3,9 @@ import 'package:weather_app/constants/app_colors.dart';
 
 class RoundTextField extends StatelessWidget {
   final TextEditingController controller;
-  const RoundTextField({super.key, required this.controller});
+  final ValueChanged<String>? onChanged;
+
+  const RoundTextField({super.key, required this.controller, this.onChanged});
 
   @override
   Widget build(BuildContext context) {
@@ -15,6 +17,7 @@ class RoundTextField extends StatelessWidget {
       ),
       child: TextField(
         controller: controller,
+        onChanged: onChanged,
         style: TextStyle(color: Colors.white),
         decoration: InputDecoration(
           contentPadding: EdgeInsets.only(left: 20, top: 15),
