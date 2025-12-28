@@ -5,6 +5,16 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Flutter** – Frontend UI  
+- **Dart** – Programming language  
+- **OpenWeatherMap API** – Weather data provider  
+- **Riverpod** – State management (if used)  
+- **HTTP / Dio** – Network requests  
+
+---
+
 ## 🚀 Features
 
 ✔ Search for cities by name  
@@ -19,12 +29,27 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 ## 📱 Screenshots
 
 
+### Home Screen (Weather Display)
+![Home Screen](assets/screenshots/home_screen.png)
+
+### Search Weather
+![Search Screen](assets/screenshots/search_screen.png)
+
+### Weather Details
+![Weather Details](assets/screenshots/weather_details.png)
+
+
+
 ---
 
-## 🧠 Tech Stack
+## 🎯 Project Highlights
 
-- **Flutter** — UI toolkit
-- **Dart**
-- **Riverpod** (optional) / `StatefulWidget` for state management
-- **OpenWeather API** (or API of your choice)
-- Custom widgets & responsive design
+- 🚀 Real-time weather data using public APIs
+- 📡 Search functionality
+- 📱 Clean and intuitive UI
+
+---
+
+## 📄 License
+
+MIT License © 2025 *mukundasv03*
