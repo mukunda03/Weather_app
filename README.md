@@ -11,7 +11,7 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 - **Dart** – Programming language  
 - **OpenWeatherMap API** – Weather data provider  
 - **Riverpod** – State management (if used)  
-- **HTTP / Dio** – Network requests  
+- **Dio** – Network requests  
 
 ---
 
