@@ -42,7 +42,7 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 <img src="assets/screenshots/hourly_screen.jpeg" width="300" height="600"/>
 
 ### Forecast Report Screen
-<img src="assets/screenshots/forecast_screen.jpeg" width="300" height="600"/>
+<img src="assets/screenshots/forecast_report_screen.jpeg" width="300" height="600"/>
 
 ---
 
