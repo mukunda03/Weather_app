@@ -30,10 +30,10 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 
 
 ### Home Screen (Weather Display) || Search Weather || Weather Details
-<p align="center"> <img src="assets/screenshots/home_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/search_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/details_screen.jpeg" width="260"/> </p>
+<p align="center"> <img src="assets/screenshots/home_screen.jpeg" width="200"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/search_screen.jpeg" width="200"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/details_screen.jpeg" width="200"/> </p>
 
 ### Hourly Weather Screen || ForeCast-Report Screen
-<p align="center"> <img src="assets/screenshots/hourly_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/forecast_report_screen.jpeg" width="260"/> </p>
+<p align="center"> <img src="assets/screenshots/hourly_screen.jpeg" width="200"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/forecast_report_screen.jpeg" width="200"/> </p>
 
 
 ---
