@@ -36,7 +36,8 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 ![Search Screen](assets/screenshots/search_page.jpeg)
 
 ### Weather Details
-![Weather Details](assets/screenshots/weather_detail.jpeg)
+![Weather Details](
+  <img src="assets/screenshots/weather_detail.jpeg" width="300"/>
 
 
 
