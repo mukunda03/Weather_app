@@ -29,23 +29,12 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 ## 📱 Screenshots
 
 
-### Home Screen (Weather Display) | Search Weather | Weather Details
-<p align="center"> <img src="assets/screenshots/home_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/search_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/details_screen.jpeg" width="260"/>
+### Home Screen (Weather Display) || Search Weather || Weather Details
+<p align="center"> <img src="assets/screenshots/home_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/search_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/details_screen.jpeg" width="260"/> </p>
 
- </p>
+### Hourly Weather Screen || Search Weather || Weather Details
+<p align="center"> <img src="assets/screenshots/hourly_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/forecast_report_screen.jpeg" width="260"/> </p>
 
-
-### Search Weather
-<img src="assets/screenshots/search_screen.jpeg" width="300" height="600"/>
-
-### Weather Details
-<img src="assets/screenshots/details_screen.jpeg" width="300" height="600"/>
-
-### Hourly Weather Screen
-<img src="assets/screenshots/hourly_screen.jpeg" width="300" height="600"/>
-
-### Forecast Report Screen
-<img src="assets/screenshots/forecast_report_screen.jpeg" width="300" height="600"/>
 
 ---
 
