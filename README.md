@@ -29,9 +29,12 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 ## 📱 Screenshots
 
 
-### Home Screen (Weather Display)
-🏠 Home & 🔍 Search
-<p align="center"> <img src="assets/screenshots/home_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/search_screen.jpeg" width="260"/> </p>
+### Home Screen (Weather Display) | Search Weather | Weather Details
+<p align="center"> <img src="assets/screenshots/home_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/search_screen.jpeg" width="260"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/screenshots/details_screen.jpeg" width="300" height="600"/>
+
+ </p>
+
+
 ### Search Weather
 <img src="assets/screenshots/search_screen.jpeg" width="300" height="600"/>
 
