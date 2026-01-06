@@ -30,16 +30,19 @@ Built with **Flutter**, **Riverpod** (or `setState`), and OpenWeather API 📍.
 
 
 ### Home Screen (Weather Display)
-![Home Screen](assets/screenshots/home_Screen.jpeg)
+<img src="assets/screenshots/home_screen.jpeg" width="300" height="600"/>
 
 ### Search Weather
-![Search Screen](assets/screenshots/search_page.jpeg)
+<img src="assets/screenshots/search_screen.jpeg" width="300" height="600"/>
 
 ### Weather Details
-![Weather Details](
-  <img src="assets/screenshots/weather_detail.jpeg" width="300"/>
+<img src="assets/screenshots/details_screen.jpeg" width="300" height="600"/>
 
+### Hourly Weather Screen
+<img src="assets/screenshots/hourly_screen.jpeg" width="300" height="600"/>
 
+### Forecast Report Screen
+<img src="assets/screenshots/forecast_screen.jpeg" width="300" height="600"/>
 
 ---
 
