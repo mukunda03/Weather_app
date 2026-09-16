@@ -5,6 +5,10 @@ Built with Flutter, Riverpod, and the OpenWeatherMap API.
 
 ---
 
+![Weather App showcase](assets/weather_showcase.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 Flutter, Dart, OpenWeatherMap API, Riverpod (state management), Dio (networking), Geolocator (device location), Jiffy (date formatting)
@@ -19,18 +23,6 @@ Flutter, Dart, OpenWeatherMap API, Riverpod (state management), Dio (networking)
 ✔ List of famous cities for quick access
 ✔ Clean UI with gradients and weather icons
 ✔ Navigation to detailed weather screens
-
----
-
-## 📱 Screenshots
-
-### Home Screen (Weather Display) || Search Weather || Weather Details
-
-<img src="assets/screenshots/home_screen.jpeg" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/screenshots/search_screen.jpeg" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/screenshots/details_screen.jpeg" width="200"/>
-
-### Hourly Weather Screen || ForeCast-Report Screen
-
-<img src="assets/screenshots/hourly_screen.jpeg" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/screenshots/forecast_report_screen.jpeg" width="200"/>
 
 ---
 
